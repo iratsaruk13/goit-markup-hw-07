@@ -1,0 +1,33 @@
+.footer-form {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-label {
+    margin-bottom: 20px;
+}
+
+.footer-subscribe {
+    display: flex;
+}
+
+.footer-input {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding-left: 16px;
+    color: var(--white-color);
+}
+
+/* .footer-input::placeholder {
+  padding-left: 16px;
+} */
+.subscribe-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

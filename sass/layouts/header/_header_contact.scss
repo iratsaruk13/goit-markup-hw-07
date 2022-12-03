@@ -1,0 +1,36 @@
+.contact-and-mail {
+    display: flex;
+    gap: 50px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: var(--main-blue-color);
+        }
+}
+
+.contact-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.contacts-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* .contacts-item + .contacts-item {
+  margin-left: 50px;
+} */
