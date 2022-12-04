@@ -1,9 +1,9 @@
-.contact-and-mail {
+.contact-mail {
     @include gap(flex, 50px);
 
 }
 
-.contacts {
+.contact-mail__link {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -21,12 +21,12 @@
         }
 }
 
-.contact-icon {
+.contact-mail__icon {
     fill: currentColor;
     margin-right: 10px;
 }
 
-.contacts-item {
+.contact-mail__item {
     display: inline-block;
     padding: 10px;
 }

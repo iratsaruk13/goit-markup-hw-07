@@ -1,10 +1,12 @@
+.benefits {
+    @extend %section;
+}
 
-
-.benefits-list {
+.benefits__list {
     @include gap(flex, 30px);
 }
 
-.benefits-list-item {
+.benefits__item {
     width: calc((100% - 90px) / 4);
 }
 /* example with before */
@@ -19,7 +21,7 @@
   background-size: 70px 70px;
   border-color: #F5F4FA;
 } */
-.benefits-item-svg {
+.benefits__icon {
     display: flex;
     margin-bottom: 30px;
     height: 120px;
@@ -28,14 +30,14 @@
     background-color: var(--background-item-color);
 }
 
-.benefits-title {
+.benefits__title {
     @extend %section-text;
     text-transform: uppercase;
     color: var(--main-title-color);
     margin-bottom: 10px;
 }
 
-.benefits-subtitle {
+.benefits__subtitle {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

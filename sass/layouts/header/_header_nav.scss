@@ -20,19 +20,19 @@
   margin-right: 93px;
 }
 
-.logo-accent {
+.header-logo__accent {
   color: var(--main-blue-color);
 }
 
-.navigation-list {
+.nav-list {
   @include gap(flex, 50px);
 }
 
-.navigation-item {
+.nav-list__item {
   @include gap(flex, 50px);
 }
 
-.nav-title {
+.nav-list__title {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
