@@ -27,7 +27,7 @@
   padding-left: 16px;
 } */
 .subscribe-btn {
-    display: flex;
+    @include gap(flex, 10px);
     justify-content: center;
-    gap: 10px;
+   
 }

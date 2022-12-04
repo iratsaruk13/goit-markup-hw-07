@@ -1,8 +1,7 @@
 
 
 .benefits-list {
-    display: flex;
-    gap: 30px;
+    @include gap(flex, 30px);
 }
 
 .benefits-list-item {

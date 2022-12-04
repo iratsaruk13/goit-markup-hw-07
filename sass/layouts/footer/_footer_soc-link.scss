@@ -15,9 +15,8 @@
 }
 
 .footer-soc-link-list {
-  display: flex;
+  @include gap (flex,10px);
   justify-content: center;
-  gap: 10px;
 }
 
 .footer-soc-link-item {

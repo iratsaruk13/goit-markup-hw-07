@@ -16,9 +16,8 @@
 }
 
 .portfolio-projects {
-  display: flex;
+  @include gap(flex,30px);
   flex-wrap: wrap;
-  gap: 30px;
 }
 
 .portfolio-projects-item {

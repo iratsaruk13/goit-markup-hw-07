@@ -1,6 +1,6 @@
 .contact-and-mail {
-    display: flex;
-    gap: 50px;
+    @include gap(flex, 50px);
+
 }
 
 .contacts {

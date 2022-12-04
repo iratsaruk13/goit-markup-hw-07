@@ -4,8 +4,7 @@
 }
 
 .clients-list {
-  display: flex;
-  gap: 30px;
+  @include gap(flex, 30px);
   justify-content: center;
 }
 

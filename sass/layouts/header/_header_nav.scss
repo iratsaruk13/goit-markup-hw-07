@@ -25,13 +25,11 @@
 }
 
 .navigation-list {
-  display: flex;
-  gap: 50px;
+  @include gap(flex, 50px);
 }
 
 .navigation-item {
-  display: flex;
-  gap: 50px;
+  @include gap(flex, 50px);
 }
 
 .nav-title {

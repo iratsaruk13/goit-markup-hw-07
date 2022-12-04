@@ -4,8 +4,7 @@
 }
 
 .activity-list {
-    display: flex;
-    gap: 30px;
+    @include gap(flex,30px);
 }
 
 .activity-list-item {
