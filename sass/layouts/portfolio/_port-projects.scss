@@ -31,7 +31,7 @@
   display: block;
   transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: $functionCubic;
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -63,7 +63,7 @@
   transform: translateY(100%);
   transition-property: transform, overflow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: $functionCubic;
   .portfolio-project-link:hover &,
   .portfolio-project-link:focus & {
     transform: translateY(0);
